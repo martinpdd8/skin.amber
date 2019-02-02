@@ -165,14 +165,14 @@
         <onclick>PlayerControl(Forward)</onclick>
       </control>
       <control type="radiobutton" id="1019">
-        <visible>Player.CanRecord</visible>
+        <visible>PVR.CanRecordPlayingChannel</visible>
         <visible>MusicPlayer.Content(LiveTV)</visible>
         <include content="OSDButtons">
           <param name="icon">OSD/OSDRecordNF.png</param>
         </include>
         <onup>100</onup>
         <ondown>Close</ondown>
-        <onclick>PlayerControl(Record)</onclick>
+        <onclick>PVR.ToggleRecordPlayingChannel</onclick>
       </control>
     </control>
     <control type="group" id="2000">

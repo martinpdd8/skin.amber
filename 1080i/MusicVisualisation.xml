@@ -140,12 +140,12 @@
             <width>40</width>
             <aspectratio align="center" aligny="center">keep</aspectratio>
             <texture>img/PVR-IsRecording.png</texture>
-            <visible>MusicPlayer.Content(LiveTV) + Player.Recording</visible>
+            <visible>MusicPlayer.Content(LiveTV) + PVR.IsRecordingPlayingChannel</visible>
           </control>
             <control type="image">
             <width>20</width>
             <texture></texture>
-            <visible>MusicPlayer.Content(LiveTV) + Player.Recording</visible>
+            <visible>MusicPlayer.Content(LiveTV) + PVR.IsRecordingPlayingChannel</visible>
           </control>
           <control type="label">
             <width>1140</width>

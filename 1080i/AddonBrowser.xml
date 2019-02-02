@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
   <defaultcontrol always="true">50</defaultcontrol>
+  <views>50,51,52,53,54,55,56</views>
   <controls>
     <include>DefaultBackground</include>
     <include>Time</include>
@@ -8,7 +9,6 @@
     <include>View_51_Panel</include>
     <include>View_52_BigList</include>
     <include>View_53_Icons</include>
-    <include>View_54_LowList</include>
     <include>View_55_BigPanel</include>
     <include>View_56_Fanart</include>
     <control type="group" id="8999" description="Side menu 9000 group">
